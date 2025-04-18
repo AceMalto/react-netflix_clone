@@ -68,7 +68,7 @@ const goToSlide = (i) => {
             interval = setInterval(() => {
                 setProgress((prev) => {
                     if(prev >= 100){
-                        setIndex((prevIndex) => (prevIndex +1) % carouselData.length)
+                        setIndex((prevIndex) => (prevIndex + 1) % carouselData.length)
                         return 0
                     }
                     return prev + 1
@@ -104,13 +104,13 @@ const goToSlide = (i) => {
                 </p>
                 <p className="max-w-md text-sm">{slide.description}</p>
 
-                <div className="flex items-center gap-3 mt-4">
+                <div className="md:flex items-center space-y-2 md:space-y-0 md:gap-3 mt-4">
                     <input
                         type="email"
                         placeholder="Email address"
                         className="bg-white/10 border border-white/20 text-white px-4 py-2 rounded-full w-64 outline-none"
                     />
-                    <button className="bg-red-600 px-5 py-2 rounded-full font-semibold flex items-center gap-2">
+                    <button className="bg-red-600 px-5 py-2 rounded-full font-semibold flex items-center justify-center w-64 md:w-52 gap-2">
                         Get Started
                         <span><TiMediaPlay className="text-xl"/></span>
                     </button>
@@ -171,13 +171,13 @@ const goToSlide = (i) => {
 
             <button
                 onClick={prevSlide}
-                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/20 text-white px-3 py-1 rounded-full"
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/20 text-white px-3 py-1 h-16 rounded-full"
             >
                 ‹
             </button>
             <button
                 onClick={nextSlide}
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/20 text-white px-3 py-1 rounded-full"
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/20 text-white px-3 py-1 h-16 rounded-full"
             >
                 ›
             </button>
