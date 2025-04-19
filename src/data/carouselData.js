@@ -67,3 +67,26 @@ export const TrendingData = [
         image: "https://m.media-amazon.com/images/I/81PwKpTI1BL._AC_UF1000,1000_QL80_.jpg",
     },
 ]
+
+export const Reasons = [
+    {
+        id: 0,
+        title: 'Enjoy on your TV',
+        Descriptions: 'Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.'
+    },
+    {
+        id: 1,
+        title: 'Download your shows to watch offline',
+        Descriptions: 'Save your favorites easily and always have something to watch.'
+    },
+    {
+        id: 2,
+        title: 'Watch everywhere',
+        Descriptions: 'Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.'
+    },
+    {
+        id: 3,
+        title: 'Create profiles for kids',
+        Descriptions: 'Send kids on adventures with their favorite characters in a space made just for them — free with your membership.'
+    },
+]

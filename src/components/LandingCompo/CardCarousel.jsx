@@ -46,7 +46,7 @@ export default function Carousel({ onImageChange }) {
 
     return (
         <div
-            className="relative w-full h-[580px] bg-black text-white rounded-xl overflow-hidden transition-all duration-500 ease-in-out"
+            className="relative w-full h-[480px] md:h-[580px] bg-black text-white rounded-xl overflow-hidden transition-all duration-500 ease-in-out"
             style={{
                 backgroundImage: `url(${slide.image})`,
                 backgroundSize: "cover",
