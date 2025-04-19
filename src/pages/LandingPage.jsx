@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 import CardCarousel from '../components/LandingCompo/CardCarousel';
+import TrendingSlider from '../components/LandingCompo/TrendingSlider';
 
 const LandingPage = () => {
     const [bgImage, setBgImage] = useState("");
@@ -32,8 +33,9 @@ const LandingPage = () => {
                 <CardCarousel onImageChange={setBgImage} />
             </div>
             
-            <div className='relative md:px-36'>
-                <h1 className='font-bold text-xl md:text-3xl'>Trending Now</h1>
+            <div className='relative mt-5 md:mt-5'>
+                <h1 className='font-bold text-xl md:px-10 md:text-3xl'>Trending Now</h1>
+                <TrendingSlider/>
             </div>
         </div>
     );

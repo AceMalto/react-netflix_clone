@@ -1,6 +1,6 @@
 export const carouselData = [
     {
-        id: 1,
+        id: 0,
         title: "Unlimited movies, TV shows, and more",
         genre: 'Start at ₱149. Cancel anytime',
         description:
@@ -8,7 +8,7 @@ export const carouselData = [
         image: "https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg",
     },
     {
-        id: 2,
+        id: 1,
         title: "SAMPUNG UTOS KAY JOSH",
         genre: '2025 • 13+ • Movie • Comedies',
         description:
@@ -16,7 +16,7 @@ export const carouselData = [
         image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_IYmN52I5FAiq9tgW0bS77b8j_IV4JCJqbk6JLc2af9-r9DMeB3xoPlumwQDdp5xPWGYJIs85ieTSUKufFDh5sjob9hO34Lz_KdTjsoeeeQYEA_vfihextQ-rWCTMerQb58Tzv6BeB-Z_6zA49uzuea03wKzrxunFPt1ESoS3_xJNISWxHZufyyovsU/w1200-h630-p-k-no-nu/FB_IMG_1736937649075.jpg",
     },
     {
-        id: 3,
+        id: 2,
         title: "When Life Gives You Tangerines",
         genre: '2025 • 13+ • Show • Romance',
         description:
@@ -32,7 +32,7 @@ export const TrendingData = [
     },
     {
         id: 2,
-        image: "",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/1e/Incognito_official_poster.jpg",
     },
     {
         id: 3,
@@ -40,30 +40,30 @@ export const TrendingData = [
     },
     {
         id: 4,
-        image: "",
+        image: "https://m.media-amazon.com/images/M/MV5BMWM4OWYzYTQtMGYwOC00NTliLThkYTctZTAwYmE4NTdmOTg0XkEyXkFqcGc@._V1_.jpg",
     },
     {
         id: 5,
-        image: "",
+        image: "https://upload.wikimedia.org/wikipedia/en/2/21/Operation_Fortune.jpg",
     },
     {
         id: 6,
-        image: "",
+        image: "https://i.mydramalist.com/eYx0ZQ_4f.jpg",
     },
     {
         id: 7,
-        image: "",
+        image: "https://m.media-amazon.com/images/M/MV5BMjEyMjFlMGEtODkxNy00ZGIwLWIzZGYtNDdiNWQyMGIxNmQwXkEyXkFqcGc@._V1_.jpg",
     },
     {
         id: 8,
-        image: "",
+        image: "https://www.thestatesman.com/wp-content/uploads/2024/12/kraven-the-hunter-kraven-the-hunter-release-date-hollywood-kraven-the-hunter-cast.jpg",
     },
     {
         id: 9,
-        image: "",
+        image: "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2025/03/28/67e6591412bf2.jpeg",
     },
     {
         id: 10,
-        image: "",
+        image: "https://m.media-amazon.com/images/I/81PwKpTI1BL._AC_UF1000,1000_QL80_.jpg",
     },
 ]
