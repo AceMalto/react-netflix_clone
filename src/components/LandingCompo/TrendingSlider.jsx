@@ -14,13 +14,13 @@ const TrendingSlider = () => {
     };
 
     return (
-        <div className='relative w-full px-10 my-6'>
+        <div className='relative w-full flex justify-center md:px-20 my-6'>
             <button onClick={scrollLeft}
-                className='absolute left-5 md:left-8 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full'>
+                className='absolute left-5 md:left-14 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full'>
                 <FiChevronLeft size={24} />
             </button>
 
-            <div ref={containerRef} className='flex items-center overflow-x-auto  space-x-4 scrollbar-hide px-3 py-5'>
+            <div ref={containerRef} className='flex items-center overflow-x-auto w-96 md:w-full space-x-4 scrollbar-hide px-3 py-5'>
                 {
                     TrendingData.filter(item => item.image).map((item, i) => (
                         <div key={item.id} className="group relative flex-shrink-0 w-40 md:w-40">
@@ -43,7 +43,7 @@ const TrendingSlider = () => {
                     ))
                 }
             </div>
-            <button onClick={scrollRight} className="absolute right-5 md:right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full">
+            <button onClick={scrollRight} className="absolute right-5 md:right-14 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full">
                 <FiChevronRight size={24} />
             </button>
         </div>

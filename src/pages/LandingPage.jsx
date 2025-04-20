@@ -34,12 +34,12 @@ const LandingPage = () => {
                 <CardCarousel onImageChange={setBgImage} />
             </div>
             
-            <div className='relative mt-5 md:mt-5'>
-                <h1 className='font-bold text-xl md:px-10 md:text-3xl'>Trending Now</h1>
+            <div className='relative mt-5 md:mt-5 mb-10'>
+                <h1 className='font-bold text-xl pl-14 md:px-20 md:text-3xl'>Trending Now</h1>
                 <TrendingSlider/>
 
                 <div>
-                    <h1 className='font-bold text-xl md:px-10 md:text-3xl'>Trending Now</h1>
+                    <h1 className='font-bold text-xl pl-14 md:px-20 md:text-3xl'>More Reasons to Join</h1>
                     <CardReason />
                 </div>
             </div>
