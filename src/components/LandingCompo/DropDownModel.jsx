@@ -15,7 +15,7 @@ const DropDownModel = () => {
                 <div key={index} className="border-b border-gray-700">
                     <button
                         onClick={() => toggleFAQ(index)}
-                        className="w-full flex justify-between items-center p-6 bg-gray-800 hover:bg-gray-700 text-left"
+                        className="w-full flex justify-between items-center p-6 bg-gray-800 hover:bg-gray-700 text-left "
                     >
                         <span className="text-xl text-white">{faq.title}</span>
                         {openIndex === index ? (
@@ -26,7 +26,7 @@ const DropDownModel = () => {
                     </button>
                     
                     {openIndex === index && (
-                        <div className="p-6 bg-gray-900 text-gray-300 text-md">
+                        <div className="p-6 bg-gray-900 text-gray-300 text-md transition-all duration-700 ease-in-out">
                         {faq.description}
                         </div>
                     )}
