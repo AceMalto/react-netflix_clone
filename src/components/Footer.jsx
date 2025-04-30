@@ -2,12 +2,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className=''>
-            <div>
-                <input type="text" />
-                <button>
-                    Get Started 
-                </button>
+        <div className='bg-black'>
+            <div className='pt-5 space-y-4'>
+                <h3 className='text-center'>Ready to watch? Enter your email to create or restart your membership</h3>
+                <div className='space-x-3 text-center'>
+                    <input type="text" className='p-2 w-96 outline-none text-white bg-black border border-white' placeholder='Email Address'/>
+                    <button className='bg-red-600'>
+                        Get Started 
+                    </button>
+                </div>
             </div>
 
             <div>

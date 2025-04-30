@@ -4,6 +4,7 @@ import CardCarousel from '../components/LandingCompo/CardCarousel';
 import TrendingSlider from '../components/LandingCompo/TrendingSlider';
 import CardReason from '../components/LandingCompo/CardReason';
 import DropDownModel from '../components/LandingCompo/DropDownModel';
+import Footer from '../components/Footer';
 
 const LandingPage = () => {
     const [bgImage, setBgImage] = useState("");
@@ -47,6 +48,9 @@ const LandingPage = () => {
                     <h1 className='font-bold text-xl pl-14 md:px-20 md:text-3xl'>Frequently Asked Questions</h1>
                     <DropDownModel />
                 </div>
+            </div>
+            <div className='relative md:mt-10'>
+                <Footer />
             </div>
         </div>
     );
